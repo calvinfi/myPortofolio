@@ -1,0 +1,46 @@
+img.masthead-avatar {
+  border-radius: 50%;
+}
+
+h1.masthead-heading {
+  line-height: 65px !important;
+}
+
+a.link-custom {
+  text-decoration: none;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+}
+
+#about .lead a.link-custom {
+  color: #2c3e50;
+}
+
+#about .lead a.link-custom:hover {
+  color: azure;
+}
+
+table.my-biodata tr td {
+  border-bottom: none;
+}
+
+table.my-biodata tr#my-contact a.link-custom {
+  color: #212529;
+}
+
+table.my-biodata tr#my-contact a.link-custom:hover {
+  color: #FF6121;
+}
+
+footer.footer p.lead span.bold-text {
+  font-weight: 800;
+}
+
+footer.footer p.lead a.link-custom {
+  color: azure;
+}
+
+footer.footer p.lead a.link-custom:hover {
+  color: #1abc9c;
+}
+/*# sourceMappingURL=myStyle.css.map */

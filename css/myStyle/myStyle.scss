@@ -1,0 +1,58 @@
+img.masthead-avatar {
+    border-radius: 50%;
+}
+
+h1.masthead-heading {
+    line-height: 65px !important;
+}
+
+a.link-custom {
+    text-decoration: none;
+    transition: .2s ease-out;
+}
+
+#about {
+    .lead {
+        a.link-custom {
+            color: #2c3e50;
+
+            &:hover {
+                color: azure;
+            }
+        }
+    }
+}
+
+table.my-biodata {
+    tr {
+        td {
+            border-bottom: none;
+        }
+
+        &#my-contact {
+            a.link-custom {
+                color: #212529;
+
+                &:hover {
+                    color: #FF6121;
+                }
+            }
+        }
+    }
+}
+
+footer.footer {
+    p.lead {
+        span.bold-text {
+            font-weight: 800;
+        }
+
+        a.link-custom {
+            color: azure;
+
+            &:hover {
+                color: #1abc9c;
+            }
+        }
+    }
+}
