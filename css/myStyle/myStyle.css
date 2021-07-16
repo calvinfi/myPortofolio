@@ -1,12 +1,18 @@
-img.masthead-avatar {
+header.custom-header {
+  background-image: url("../../assets/img/Wallpaper.jpg");
+  background-size: cover;
+  background-position-y: center;
+}
+
+header.custom-header img.masthead-avatar {
   border-radius: 50%;
 }
 
-h1.masthead-heading {
+header.custom-header h1.masthead-heading {
   line-height: 65px !important;
 }
 
-a.link-custom {
+header.custom-header a.link-custom {
   text-decoration: none;
   -webkit-transition: .2s ease-out;
   transition: .2s ease-out;

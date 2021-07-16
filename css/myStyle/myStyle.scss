@@ -1,14 +1,20 @@
-img.masthead-avatar {
-    border-radius: 50%;
-}
+header.custom-header {
+    background-image: url('../../assets/img/Wallpaper.jpg');
+    background-size: cover;
+    background-position-y: center;
 
-h1.masthead-heading {
-    line-height: 65px !important;
-}
-
-a.link-custom {
-    text-decoration: none;
-    transition: .2s ease-out;
+    img.masthead-avatar {
+        border-radius: 50%;
+    }
+    
+    h1.masthead-heading {
+        line-height: 65px !important;
+    }
+    
+    a.link-custom {
+        text-decoration: none;
+        transition: .2s ease-out;
+    }
 }
 
 #about {
