@@ -2,6 +2,7 @@ header.custom-header {
   background-image: url("../../assets/img/Wallpaper.jpg");
   background-size: cover;
   background-position-y: center;
+  background-position-x: center;
 }
 
 header.custom-header img.masthead-avatar {
