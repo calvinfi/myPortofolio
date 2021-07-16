@@ -13,7 +13,7 @@ header.custom-header h1.masthead-heading {
   line-height: 65px !important;
 }
 
-header.custom-header a.link-custom {
+a.link-custom {
   text-decoration: none;
   -webkit-transition: .2s ease-out;
   transition: .2s ease-out;
