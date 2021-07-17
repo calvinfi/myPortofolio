@@ -1,8 +1,15 @@
-header.custom-header {
-  background-image: url("../../assets/img/Wallpaper.jpg");
-  background-size: cover;
+.bg-body {
+  background-image: url("../../assets/background/Night-view-Mountain.jpg");
+  background-size: cover !important;
+  background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: center;
+}
+
+.navbar#mainNav.navbar-shrink {
+  background-color: #383C6E !important;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
 }
 
 header.custom-header img.masthead-avatar {
@@ -19,24 +26,37 @@ a.link-custom {
   transition: .2s ease-out;
 }
 
+#about.bg-primary {
+  background-color: rgba(44, 62, 80, 0.502) !important;
+}
+
+#about .lead {
+  font-weight: lighter;
+}
+
 #about .lead a.link-custom {
-  color: #2c3e50;
+  color: #ffffff;
+  font-style: italic;
 }
 
 #about .lead a.link-custom:hover {
-  color: azure;
+  color: #1abc9c;
 }
 
 table.my-biodata tr td {
+  padding: 15px;
+  color: azure;
+  font-size: 18px;
+  font-weight: 600;
   border-bottom: none;
 }
 
 table.my-biodata tr#my-contact a.link-custom {
-  color: #212529;
+  color: azure;
 }
 
 table.my-biodata tr#my-contact a.link-custom:hover {
-  color: #FF6121;
+  color: #1abc9c;
 }
 
 footer.footer p.lead span.bold-text {
