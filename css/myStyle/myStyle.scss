@@ -8,8 +8,12 @@
 
 .navbar#mainNav {
     &.navbar-shrink {
-        background-color: #383C6E !important;
+        background-color: #383c6ee2 !important;
         transition: .5s ease-in-out;
+    }
+
+    .navbar-collapse {
+        
     }
 }
 
@@ -75,6 +79,8 @@ table.my-biodata {
 }
 
 footer.footer {
+    background-color: #383C6E !important;
+    
     p.lead {
         span.bold-text {
             font-weight: 800;

@@ -7,7 +7,7 @@
 }
 
 .navbar#mainNav.navbar-shrink {
-  background-color: #383C6E !important;
+  background-color: #383c6ee2 !important;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
 }
@@ -57,6 +57,10 @@ table.my-biodata tr#my-contact a.link-custom {
 
 table.my-biodata tr#my-contact a.link-custom:hover {
   color: #1abc9c;
+}
+
+footer.footer {
+  background-color: #383C6E !important;
 }
 
 footer.footer p.lead span.bold-text {
