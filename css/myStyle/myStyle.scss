@@ -12,9 +12,7 @@
         transition: .5s ease-in-out;
     }
 
-    .navbar-collapse {
-
-    }
+    .navbar-collapse {}
 }
 
 header.custom-header {
@@ -45,6 +43,7 @@ a.link-custom {
 
     .lead {
         font-weight: lighter;
+
         a.link-custom {
             color: #ffffff;
             font-style: italic;
@@ -80,7 +79,7 @@ table.my-biodata {
 
 footer.footer {
     background-color: #383C6E !important;
-    
+
     p.lead {
         span.bold-text {
             font-weight: 800;
