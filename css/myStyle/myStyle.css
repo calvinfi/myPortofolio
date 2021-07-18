@@ -7,9 +7,16 @@
 }
 
 .navbar#mainNav.navbar-shrink {
-  background-color: #383c6ee2 !important;
+  background-color: #383c6ef0 !important;
   -webkit-transition: .5s ease-in-out;
   transition: .5s ease-in-out;
+}
+
+.navbar#mainNav .navbar-collapse .divider-menu {
+  width: 50%;
+  height: 1px !important;
+  background-color: #ffffff;
+  margin: auto;
 }
 
 header.custom-header img.masthead-avatar {
