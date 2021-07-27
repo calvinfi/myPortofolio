@@ -12,6 +12,11 @@
   transition: .5s ease-in-out;
 }
 
+.navbar#mainNav .navbar-brand img {
+  width: 100px;
+  padding-left: 25px;
+}
+
 .navbar#mainNav .navbar-collapse .divider-menu {
   width: 30%;
   height: 1px !important;
@@ -50,11 +55,21 @@ a.link-custom {
   color: #1abc9c;
 }
 
+table.my-biodata.table-dark {
+  --bs-table-bg: rgba(33, 37, 41, 0.3);
+  --bs-table-striped-bg: rgba(44, 48, 52, 0.3);
+  --bs-table-striped-color: #fff;
+  --bs-table-active-bg: rgba(55, 59, 62, 0.3);
+  --bs-table-active-color: #fff;
+  --bs-table-hover-bg: rgba(50, 53, 57, 0.3);
+  --bs-table-hover-color: #fff;
+}
+
 table.my-biodata tr td {
   padding: 10px 15px;
   color: azure;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   border-bottom: none;
 }
 
@@ -64,6 +79,22 @@ table.my-biodata tr#my-contact a.link-custom {
 
 table.my-biodata tr#my-contact a.link-custom:hover {
   color: #1abc9c;
+}
+
+table.my-biodata tr:nth-child(1) td:nth-child(1) {
+  border-top-left-radius: 10px;
+}
+
+table.my-biodata tr:nth-child(1) td:nth-last-child(1) {
+  border-top-right-radius: 10px;
+}
+
+table.my-biodata tr:nth-last-child(1) td:nth-child(1) {
+  border-bottom-left-radius: 10px;
+}
+
+table.my-biodata tr:nth-last-child(1) td:nth-last-child(1) {
+  border-bottom-right-radius: 10px;
 }
 
 footer.footer {
