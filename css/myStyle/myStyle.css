@@ -97,6 +97,10 @@ table.my-biodata tr:nth-last-child(1) td:nth-last-child(1) {
   border-bottom-right-radius: 10px;
 }
 
+section.rewards-and-achievement#rewards {
+  padding-top: 0;
+}
+
 footer.footer {
   background-color: #383C6E !important;
 }
