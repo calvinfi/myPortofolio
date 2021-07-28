@@ -55,7 +55,11 @@ a.link-custom {
   color: #1abc9c;
 }
 
-table.my-biodata.table-dark {
+section#biodata {
+  padding-bottom: 0;
+}
+
+section#biodata table.my-biodata.table-dark {
   --bs-table-bg: rgba(33, 37, 41, 0.3);
   --bs-table-striped-bg: rgba(44, 48, 52, 0.3);
   --bs-table-striped-color: #fff;
@@ -65,7 +69,7 @@ table.my-biodata.table-dark {
   --bs-table-hover-color: #fff;
 }
 
-table.my-biodata tr td {
+section#biodata table.my-biodata tr td {
   padding: 10px 15px;
   color: azure;
   font-size: 18px;
@@ -73,32 +77,28 @@ table.my-biodata tr td {
   border-bottom: none;
 }
 
-table.my-biodata tr#my-contact a.link-custom {
+section#biodata table.my-biodata tr#my-contact a.link-custom {
   color: azure;
 }
 
-table.my-biodata tr#my-contact a.link-custom:hover {
+section#biodata table.my-biodata tr#my-contact a.link-custom:hover {
   color: #1abc9c;
 }
 
-table.my-biodata tr:nth-child(1) td:nth-child(1) {
+section#biodata table.my-biodata tr:nth-child(1) td:nth-child(1) {
   border-top-left-radius: 10px;
 }
 
-table.my-biodata tr:nth-child(1) td:nth-last-child(1) {
+section#biodata table.my-biodata tr:nth-child(1) td:nth-last-child(1) {
   border-top-right-radius: 10px;
 }
 
-table.my-biodata tr:nth-last-child(1) td:nth-child(1) {
+section#biodata table.my-biodata tr:nth-last-child(1) td:nth-child(1) {
   border-bottom-left-radius: 10px;
 }
 
-table.my-biodata tr:nth-last-child(1) td:nth-last-child(1) {
+section#biodata table.my-biodata tr:nth-last-child(1) td:nth-last-child(1) {
   border-bottom-right-radius: 10px;
-}
-
-section.rewards-and-achievement#rewards {
-  padding-top: 0;
 }
 
 footer.footer {
