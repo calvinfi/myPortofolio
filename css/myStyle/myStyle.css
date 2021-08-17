@@ -24,6 +24,12 @@
   margin: auto;
 }
 
+@media only screen and (max-width: 991px) {
+  .navbar#mainNav {
+    background-color: #383c6ef0 !important;
+  }
+}
+
 header.custom-header img.masthead-avatar {
   border-radius: 50%;
 }

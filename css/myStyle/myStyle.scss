@@ -28,6 +28,12 @@
     }
 }
 
+@media only screen and (max-width: 991px) {
+    .navbar#mainNav {
+        background-color: #383c6ef0 !important;
+    }
+}
+
 header.custom-header {
     // background-image: url('../../assets/img/Wallpaper.jpg');
     // background-size: cover;
